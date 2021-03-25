@@ -1,0 +1,201 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+ul, ol{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+.container{
+    width: 1320px;
+    margin: 0 auto;
+}
+.clr{
+    clear: both;
+}
+.common-heading h2{
+    position: relative;
+    font-family: 'Oswald', sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 60px;
+}
+/* ****************************************************************
+                            HEADER PART START
+**************************************************************** */
+header{
+    background: #0872b9;
+    padding: 10px 0px;
+}
+header .header-part{
+    width: 50%;
+    float: left;
+    color: white;
+}
+header .header-part .header-icon{
+    text-align: right;
+}
+header .header-part .header-text p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+}
+header .header-part .header-icon i{
+    font-size: 14px;
+    font-weight: 400;
+    margin-left: 24px;
+    transition: .4s;
+    cursor: pointer;
+}
+header .header-part .header-icon i:hover{
+    color:#353535;
+}
+/* ****************************************************************
+                            HEADER PART END
+**************************************************************** */
+
+/* ****************************************************************
+                            NAVBAR PART START
+**************************************************************** */
+nav .nav-logo{
+    width: 30%;
+    float: left;
+    padding: 20px 0px;
+}
+nav .nav-menu{
+    width: 70%;
+    float: left;
+    text-align: right;
+}
+nav .nav-menu ul{
+    margin-top: 35px;
+}
+nav .nav-menu ul li{
+    display: inline-block;
+    margin-left: 15px;
+}
+nav .nav-menu ul li a{
+    display: inline-block;
+    color: #4a4a4a;
+}
+nav .nav-menu ul li .active,
+nav .nav-menu ul li a:hover{
+    color: #0872b9;
+}
+
+/* ****************************************************************
+                            NAVBAR PART END
+**************************************************************** */
+
+/* ****************************************************************
+                            BANNER PART START
+**************************************************************** */
+#banner-part{
+    background: url(../images/banner.png) no-repeat center;
+    background-size: cover;
+    color: white;
+}
+#banner-part .overlay{
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0,.6);
+    padding: 100px 0px;
+}
+#banner-part .overlay .container .banner-left{
+    width: 65%;
+    float: left;
+}
+#banner-part .overlay .container .banner-right{
+    width: 33%;
+    float: right;
+    text-align: right;
+}
+#banner-part .overlay .container .banner-right h3{
+    font-family: 'Oswald', sans-serif;
+    font-size: 30px;
+    font-weight: 400;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+}
+#banner-part .overlay .container .banner-right h1{
+    font-family: 'Oswald', sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+#banner-part .overlay .container .banner-right p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 24px;
+    margin: 25px 0px 35px 0px
+}
+#banner-part .overlay .container .banner-right a{
+    display: inline-block;
+    background: #0872b9;
+    border: 1px solid #0872b9;
+    color: white;
+    padding: 10px 20px;
+    margin-left: 20px;
+    font-family: 'Oswald', sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    transition: .4s;
+}
+#banner-part .overlay .container .banner-right a:hover{
+    border-color: #0872b9;
+    background: transparent;
+}
+/* ****************************************************************
+                            BANNER PART END
+**************************************************************** */
+
+/* ****************************************************************
+                           ABOUT PART START
+**************************************************************** */
+#about-part .about-img{
+    width: 40%;
+    float: left;
+}
+#about-part .about-text{
+    width: 60%;
+    float: left;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 24px;
+}
+#about-part .container{
+    margin: 60px auto;
+}
+
+#about-part .common-heading .common-line img{
+    position: absolute;
+    left: 625px;
+}
+#about-part .container .about-img img{
+    width: 100%;
+} 
+#about-part .container .about-text p {
+    padding: 0px 113px;
+}
+#about-part .container .about-text p.first-p{
+    margin-top: 65px;
+}
+#about-part .container .about-text p.second-p{
+    margin-top: 40px;
+}
+/* ****************************************************************
+                            ABOUT PART END
+**************************************************************** */
+#service-part .service {
+    margin-top: 50px;
+}
+#service-part .common-heading .common-line img{
+    position: absolute;
+    left: 605px;
+}
