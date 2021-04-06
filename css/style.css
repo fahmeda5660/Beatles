@@ -24,6 +24,9 @@ a{
     text-align: center;
     margin-top: 60px;
 }
+.common-heading .common-line{
+    margin-bottom: 60px;
+}
 /* ****************************************************************
                             HEADER PART START
 **************************************************************** */
@@ -169,10 +172,6 @@ nav .nav-menu ul li a:hover{
     font-weight: 400;
     line-height: 24px;
 }
-#about-part .container{
-    margin: 60px auto;
-}
-
 #about-part .common-heading .common-line img{
     position: absolute;
     left: 625px;
@@ -192,10 +191,442 @@ nav .nav-menu ul li a:hover{
 /* ****************************************************************
                             ABOUT PART END
 **************************************************************** */
+/* ****************************************************************
+                            SERVICE PART START
+**************************************************************** */
 #service-part .service {
     margin-top: 50px;
 }
 #service-part .common-heading .common-line img{
     position: absolute;
-    left: 605px;
+    left: 606px;
+}
+#service-part .item p {
+    padding: 0 40px;
+    line-height: 24px;
+    font-family: 'Open Sans';
+    font-weight: 400;
+    font-size: 13px;
+    color: #555555;
+    padding: 0 40px;
+    line-height: 24px;
+}
+#service-part .item{
+    width: 30%;
+    background: #f1f1f1;
+    margin: 0 21px;
+    float: left;
+    position: relative;
+    padding: 82px 23px;
+    box-sizing: border-box;
+    padding-bottom: 23px;
+    text-align: center;
+    margin-top: 50px;
+    transition: .4s;
+}
+
+#service-part .item .shape{
+    width: 110px;
+    height: 110px;
+    background: #fff;
+    border-radius: 50%;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%,-50%);  
+  
+}
+#service-part .item .shape h3{
+
+    font-family: 'Oswald';
+    font-weight: 400;
+    font-size: 16px;
+    color: #353535;
+
+}
+
+#service-part .item .border-shape{
+    width: 100px;
+    height: 100px;
+    background: transparent;
+    border-radius: 50%;
+    border: 1px solid #f1f1f1;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+#service-part .item .icon-shape{
+    width: 90px;
+    height: 90px;
+    background: #f1f1f1;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+#service-part .item .icon-shape img{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+#service-part .item:hover .border-shape{
+    border-color: #5bc5f4;
+}
+
+
+#service-part .item:hover .icon-shape{
+    background: #5bc5f4;
+}
+#service-part .item:hover{
+    -webkit-box-shadow: 0px 0px 9px 2px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 9px 2px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 9px 2px rgba(0,0,0,0.75);
+}
+/* ****************************************************************
+                            SERVICE PART END
+**************************************************************** */
+/* ****************************************************************
+                            PORTFOLIO PART START
+**************************************************************** */
+#portfolio-part .service {
+    margin-top: 50px;
+}
+#portfolio-part .common-heading .common-line img{
+    position: absolute;
+    left: 600px;
+}
+#portfolio-part .item{
+    width: 22%;
+    float: left;
+    margin: 0 19px;
+}
+#portfolio-part .item .img{
+    margin-bottom: 20px;
+    position: relative;
+}
+#portfolio-part .item .img img{
+    width: 100%;
+    display: block;
+}
+#portfolio-part .item .img .overlay{
+    width: 100%;
+    height: 0%;
+    background: rgba(0, 0, 0,.7);
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    transition: .4s;
+}
+#portfolio-part .item .img .overlay i{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: #5bc5f4;
+    color: #fff;
+    text-align: center;
+    line-height: 40px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+#portfolio-part .item .img:hover .overlay{
+    height: 100%;
+    opacity: 1;
+}
+
+/* ****************************************************************
+                            PORTFOLIO PART END
+**************************************************************** */
+/* ****************************************************************
+                            TEAM PART START
+**************************************************************** */
+#team-part .service {
+    margin-top: 50px;
+}
+#team-part .common-heading .common-line img{
+    position: absolute;
+    left: 625px;
+}
+#team-part .item{
+    width: 22%;
+    float: left;
+    margin: 0 19px;
+    overflow: hidden;
+}
+
+#team-part .item .img{
+    position: relative;
+}
+
+#team-part .item .img img{
+    width: 100%;
+    display: block;
+}
+
+#team-part .item .img .overlay{
+    width: 80px;
+    height: 100%;
+    background: rgba(0, 0, 0,.7);
+    position: absolute;
+    top: 0;
+    right: -80px;
+    text-align: center;
+    padding-top: 65px;
+    box-sizing: border-box;
+    transition: .4s;
+}
+
+#team-part .item .img .overlay i{
+    width: 38px;
+    height: 38px;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 38px;
+    color: #fff;
+    margin-top: 15px;
+    transition: .4s;
+}
+
+#team-part .item .img .overlay i:hover{
+    background: #5bc5f4;
+    border-color: #5bc5f4;
+}
+
+#team-part .item:hover .img .overlay{
+    right: 0;
+}
+
+#team-part .item .details{
+    text-align: center;
+}
+#team-part .item .details h3{
+    font-family: 'Oswald';
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 40px;
+    color: #424242;
+}
+#team-part .item .details p{
+    font-family: 'Oswald';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 14px;
+    color: #555555;
+}
+#team-part .item:hover .details h3{
+    color: #5bc5f4;
+}
+/* ****************************************************************
+                            TEAM PART END
+**************************************************************** */
+
+/* ****************************************************************
+                            TESTIMONIAL PART START
+**************************************************************** */
+#testimonial-part .service {
+    margin-top: 50px;
+}
+#testimonial-part .common-heading .common-line img{
+    position: absolute;
+    left: 613px;
+}
+#testimonial-part .item{
+    width: 47%;
+    float: left;
+    margin: 0 19px;
+}
+#testimonial-part .item .img{
+    width: 80px;
+    height: 80px;
+    margin: 0 auto;
+}
+#testimonial-part .item .details{
+    background: #f1f1f1;
+    height: 200px;
+    text-align: center;
+    margin-top: 50px;
+    padding-bottom: 30px;
+    margin-bottom: 60px;
+}
+#testimonial-part .item .details h3{
+    margin-top: -20px;
+    font-family: 'Oswald';
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 40px;
+    color: #5b5b5b;
+}
+#testimonial-part .item .details span{
+    font-family: 'Oswald';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 14px;
+    color: #5f5f5f;
+}
+#testimonial-part .item .details p{
+    font-family: Oswald;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 24px;
+    color: rgb(95, 95, 95);
+    padding: 12px 96px;
+}
+#testimonial-part .item .details .shape {
+	width: 40px;
+	height: 40px;
+	background: #f1f1f1;
+	margin: 0 auto;
+	transform: translateY(-50%) rotate(45deg);
+}
+#testimonial-part .item .details .shape {
+	width: 40px;
+	height: 40px;
+	background: #f1f1f1;
+	margin: 0 auto;
+	transform: translateY(-50%) rotate(45deg);
+}
+#testimonial-part .item .details .test_rating i {
+    font-size: 16px;
+    display: inline-block;
+    color: #5bc5f4;
+    line-height: 35px;
+}
+/* ****************************************************************
+                            TESTIMONIAL PART END
+**************************************************************** */
+/* ****************************************************************
+                            FOOTER PART START
+**************************************************************** */
+#footer {
+    background: #353535;
+    padding: 0 40px;
+    overflow: hidden;
+}
+#footer .container{
+    margin: 0 25px;
+}
+#footer .logo{
+    width: 22%;
+    float: left;
+    padding: 25px 20px;
+}
+#footer .logo p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 13px;
+    line-height: 24px;
+    font-weight: 400;
+    color: #f1f1f1;
+    margin-top: 11px;
+    padding-right: 70px;
+}
+#footer .contact{
+    width: 23%;
+    float: left;
+}
+#footer .contact h3{
+    font-family: 'Oswald', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    color: #fff;
+    margin-top: 35px;
+    margin-bottom: 20px;
+}
+#footer .contact .foot{
+    margin-top: 20px;
+}
+#footer .contact .foot .icon{
+    width: 35px;
+    height: 35px;
+    background: #5bc5f4;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 35px;
+    color: white;
+    float: left;
+    margin-top: 5px;
+}
+#footer .contact .foot .text{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 13px;
+    width: 110px;
+    padding-left: 10px;
+    line-height: 24px;
+    color: #f1f1f1;
+    float: left;
+} 
+#footer .link{
+    width: 18%;
+    float: left;
+}
+#footer .photo{
+    width: 32%;
+    float: left;
+} 
+#footer .link h3{
+    font-family: 'Oswald', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    color: #fff;
+    margin-top: 35px;
+} 
+#footer .link .left-link, #footer .link .right-link{
+    width: 50%;
+    float: left;
+    font-family: 'Open Sans';
+    font-weight: 400;
+    font-size: 13px;
+    margin-top: 10px;
+} 
+#footer .link ul li{
+    margin-top: 15px;
+} 
+#footer .link ul li a{
+    color: white;
+    transition: 0.4s;
+} 
+#footer .link ul li a:hover{
+    color: #5bc5f4;
+} 
+#footer .photo h3{
+    font-family: 'Oswald', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    color: #fff;
+    margin-top: 35px;
+    margin-bottom: 30px;
+} 
+#footer .photo img{
+    margin: 0 15px 15px 0;
+}
+/* ****************************************************************
+                            FOOTER PART END
+**************************************************************** */
+
+#bottom-bar{
+    background: #555555;
+    padding: 15px 0;
+    overflow: hidden;
+}
+ 
+#bottom-bar .container .text{
+    width: 346px;
+    margin: 0 auto;
+    color: white;
+}
+#bottom-bar .container .text p{ 
+    font-family: 'Open Sans';
+    font-weight: 400;
+    font-size: 13px;
+}
+#bottom-bar .container .text a{
+    color: #5BC5F4;
 }
